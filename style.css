@@ -1,0 +1,93 @@
+.main_photo {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.other_photos {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.icon_of_gallery {
+    width: 15px;
+    height: 10px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #d8dae2;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #eff0f1;
+}
+
+.people, .nature, .history {
+    display: flex;
+    flex-direction: column;
+    margin-right: 65px;
+    background-color: white;
+    width: 200px;
+    height: auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.subphotos, .foot {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.header span {
+    background-color: white;
+    margin-right: 3px;
+    width: 130px;
+    height: auto;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+span, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
